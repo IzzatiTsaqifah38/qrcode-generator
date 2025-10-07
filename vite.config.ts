@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+   base: process.env.NODE_ENV === 'production' ? '/qrcode-generator-main/' : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
