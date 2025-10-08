@@ -17,7 +17,7 @@ defineProps({
 
 <template>
   <button
-    class="bg-blue-800/5 hover:bg-blue-800/10 py-1 px-2 rounded-md text-blue-800 data-[is-selected='true']:bg-blue-800/90 transition-colors data-[is-selected='true']:text-white text-xs flex items-center gap-1"
+    class="bg-blue-800/5 hover:bg-blue-800/10 py-1 px-2 rounded-md text-blue-800 data-[is-selected='true']:bg-purple-800/90 transition-colors data-[is-selected='true']:text-white text-xs flex items-center gap-1"
     :data-is-selected="qrcodeFormat === format"
     @click="() => setQrcodeFormat(format)"
   >
